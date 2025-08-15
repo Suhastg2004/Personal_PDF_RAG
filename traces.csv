@@ -1,0 +1,5 @@
+query,retrieval_time_s,generation_time_s,k_bm25,k_dense,k_final,beta,use_reranker
+What is the pdf about ?,0.294,0.978,15,15,5,0.7,True
+What is the pdf about ?,0.245,0.628,15,15,5,0.7,True
+Give the contents of the pdf,0.289,1.309,15,15,5,0.7,True
+What is the fee payed by me this year ?,0.251,0.959,15,15,5,0.7,True

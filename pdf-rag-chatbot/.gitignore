@@ -1,0 +1,42 @@
+### Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+### Virtual envs
+venv/
+.venv/
+env/
+.envrc
+
+### Streamlit
+.streamlit/
+
+### Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+### Logs & traces
+*.log
+traces.csv
+logs/
+
+### Secrets
+.env
+
+### Data & models (local)
+data/
+.cache/
+cache/
+hf_cache/
+**/sentence_transformers/*
+**/transformers/*
+
+### Chroma persistence (if enabled)
+.chroma/

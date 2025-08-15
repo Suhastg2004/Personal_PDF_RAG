@@ -1,0 +1,48 @@
+# Top-level ignores for the workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+myenv/
+ENV/
+
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node/JS (if present)
+node_modules/
+
+# Secrets
+.env
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Model & dataset caches
+.cache/
+cache/
+hf_cache/
+**/sentence_transformers/*
+**/transformers/*
+
+# Chroma local store
+.chroma/
